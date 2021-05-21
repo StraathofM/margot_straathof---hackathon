@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>IN CHOC - Contact</title>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <h1>IN  CHOC</h1>
+            <!-- ∙ -->
+            <p>crazy delicious</p>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="over.html">OVER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="contact-container">
+                <div class="inner-contact-container">
+                    <h2>CONTACT</h2>
+                    <p>Heb je vragen of opmerkingen? Of mis je een smaak?
+                        Vul het formulier in en ik neem zo snel mogelijk contact met je op!
+                    </p>
+                </div>
+            </div>
+
+            <div class="form">
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="vnaam">Voornaam:</label><br>
+                    <input type="text" id="vnaam" name="naam"><br>
+                    <label for="anaam">Achternaam:</label><br>
+                    <input type="text" id="anaam" name="anaam"/><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"/><br>
+                    <label for="notes">Opmerkingen:</label> <br>
+                    <textarea name="opmerking" id="notes" rows="5"></textarea><br>
+                    <input class="submit-btn" type="submit" name="submit" value="Verstuur"/>
+                </form>
+            </div>
+
+            <hr class="line">
+
+        </div>
+    </main>
+    <div class="container">
+        <footer>
+            <p>&copy; IN CHOC</p>
+            <p>Amsterdam, 2021</p>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </footer>
+    </div>
+</body>
+</html>
